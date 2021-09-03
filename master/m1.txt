@@ -1,0 +1,8 @@
+connect to existing github repository
+remote add origin https://github.com/cwoods88keys/UdemyGithubBasics.git
+
+push files in a specific branch up
+git push origin master
+
+In github, Profile>settings>developer settings>generate new token
+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
