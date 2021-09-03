@@ -6,3 +6,11 @@ git push origin master
 
 In github, Profile>settings>developer settings>generate new token
 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
+not sure I every used this; needed osxkeychain to enter login password for github
+
+git branch -a
+shows local branch=master and remotes/origin/master which is a reflection of what's on github
+there's an intermediate remote tracking branch which is actually what's being shown here
+pull will get the remote commits and add to the remotes/origin/master/branch which is then added to local branch
+git branch -r shows loacl tracking branch for the remote branches
+git ls-remote shows remote branches
